@@ -163,7 +163,7 @@ The project can be improved by:
 ```text
 Fake-Job-Posting-Detection/
 │
-├── fake_job_postings.csv
+|
 ├── fake_job_detection.ipynb
 ├── requirements.txt
 ├── README.md
