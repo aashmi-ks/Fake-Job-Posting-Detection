@@ -124,9 +124,21 @@ The models are evaluated using:
 
 ## Results
 
-The performance of Logistic Regression and Naive Bayes is compared using the evaluation metrics above.
+Two machine learning models were trained and evaluated on the same test dataset.
 
-The actual model results and graphs are available in the project notebook.
+| Model               | Accuracy | Precision | Recall | F1-Score |
+| ------------------- | -------: | --------: | -----: | -------: |
+| Logistic Regression |   96.98% |    63.60% | 87.86% |   73.79% |
+| Naive Bayes         |   96.36% |    74.71% | 37.57% |   50.00% |
+
+### Best Model
+
+Logistic Regression performed better overall, achieving an F1-score of **73.79%** and a fraudulent-class recall of **87.86%**.
+
+The higher recall means that the model was able to identify most of the fraudulent job postings. This is particularly important for this problem because missing a fraudulent posting can be more serious than incorrectly flagging a genuine posting.
+
+The confusion matrix and model comparison graph are available in the `screenshots` folder.
+
 
 ## Limitations
 
